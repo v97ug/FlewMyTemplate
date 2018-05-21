@@ -1,0 +1,56 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.header-inner {
+    height: 80px;
+    padding-left: 40px;
+    padding-right: 40px;
+    float: left;
+    width: 100%;
+}
+
+.header-inner h1 {
+    float: left;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.header-inner h1 a {
+    text-decoration: none;
+}
+
+.header-inner h1 a:after {
+    position: absolute;
+    bottom: 6px;
+    right: -8px;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #27E1CE;
+}
+
+.header-inner h1 a:hover{
+    opacity: 0.8;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    padding: 30px 20px;
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+nav ul li a:hover {
+    color: #27E1CE;
+    opacity: 0.8;
+    text-decoration: none;
+
+}
+
